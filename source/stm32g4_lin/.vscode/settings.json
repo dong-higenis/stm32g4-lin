@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "usbd_cdc_if.h": "c",
+        "stm32g4xx_hal.h": "c",
+        "gpio.h": "c",
+        "util.h": "c",
+        "chrono": "c",
+        "xlocale": "c",
+        "led.h": "c",
+        "stdbool.h": "c"
+    }
+}

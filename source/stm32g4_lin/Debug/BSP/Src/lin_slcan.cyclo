@@ -1,0 +1,8 @@
+../BSP/Src/lin_slcan.c:16:28:slcan_get_master_table_row	3
+../BSP/Src/lin_slcan.c:42:9:addLinMasterRow	18
+../BSP/Src/lin_slcan.c:129:6:lin_slcan_reset	1
+../BSP/Src/lin_slcan.c:137:6:lin_slcan_rx_handler	1
+../BSP/Src/lin_slcan.c:146:6:open_lin_on_rx_frame	1
+../BSP/Src/lin_slcan.c:151:6:lin_slcan_rx_timeout_handler	4
+../BSP/Src/lin_slcan.c:177:6:lin_slcan_skip_header_reception	1
+../BSP/Src/lin_slcan.c:187:6:lin_slcan_rx	11

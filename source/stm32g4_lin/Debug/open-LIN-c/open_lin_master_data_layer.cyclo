@@ -1,0 +1,8 @@
+../open-LIN-c/open_lin_master_data_layer.c:31:13:open_lin_master_goto_idle	2
+../open-LIN-c/open_lin_master_data_layer.c:45:6:open_lin_master_dl_init	1
+../open-LIN-c/open_lin_master_data_layer.c:52:35:get_current_item	1
+../open-LIN-c/open_lin_master_data_layer.c:57:13:data_layer_next_item	2
+../open-LIN-c/open_lin_master_data_layer.c:69:8:open_lin_master_data_tx_header	7
+../open-LIN-c/open_lin_master_data_layer.c:78:8:open_lin_master_data_tx_data	6
+../open-LIN-c/open_lin_master_data_layer.c:91:8:open_lin_master_dl_rx	4
+../open-LIN-c/open_lin_master_data_layer.c:122:6:open_lin_master_dl_handler	17

@@ -1,0 +1,4 @@
+../BSP/Src/led.c:6:6:setStatusLed	16	static
+../BSP/Src/led.c:11:6:toggleStatusLed	8	static
+../BSP/Src/led.c:16:6:setLinkLed	16	static
+../BSP/Src/led.c:21:6:setErrorLed	16	static

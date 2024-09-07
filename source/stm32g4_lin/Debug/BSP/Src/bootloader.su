@@ -1,0 +1,2 @@
+../BSP/Src/bootloader.c:60:6:RebootToBootloader	4	static
+../BSP/Src/bootloader.c:61:6:bootloaderSwitcher	4	static
