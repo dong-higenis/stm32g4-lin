@@ -3,7 +3,7 @@ STM32G4 기반 USB to LIN 통신 모듈
 
 SLCAN 기반 통신 프로토콜 지원(COM 포트 인식)
 
-![보드](./blob/board.png)
+![보드](./blob/board_.png)
 
 https://github.com/uCAN-LIN/LinUSBConverter 기반으로 구성됨
 
