@@ -24,6 +24,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
 #include "slcan.h"
 #include "lin_slcan.h"
 /* USER CODE END Includes */
@@ -63,6 +64,12 @@ uint32_t lin_baund_rate = 19200;
 uint8_t Uart2RxFifo;
 extern void bootloaderSwitcher();
 
+extern UART_HandleTypeDef huart2;
+int __io_putchar(int ch)
+{
+	HAL_UART_Transmit(&huart2, (uint8_t*)&ch, 1, 1000);
+    return ch;
+}
 /* USER CODE END 0 */
 
 /**
@@ -101,7 +108,9 @@ int main(void)
   MX_USB_Device_Init();
   /* USER CODE BEGIN 2 */
   HAL_UART_Receive_IT(&huart1, &Uart2RxFifo, 1);
-
+  printf("hello\n");
+  // LIN_EN
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
   /* USER CODE END 2 */
 
   /* Infinite loop */

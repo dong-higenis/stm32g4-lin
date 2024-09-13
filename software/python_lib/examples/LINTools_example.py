@@ -14,6 +14,40 @@ def rx_new_data(f):
         print (str(rx_count) + " " + hex(f.id) + ": " +(f.data.hex()))
         if (message.id == f.id):
                 message.decode(f.data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
                 print(message.diff_str())
 
 ldf = parseLDF("D:\\ldfe.ldf")        

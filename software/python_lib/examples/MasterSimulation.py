@@ -20,7 +20,7 @@ def rx_new_data(f):
         slave_frame.decode(f.data)
         print ("LIN> " + slave_frame.diff_str())
 
-lin = ucanlintools.LUC('COM11')
+lin = ucanlintools.LUC('COM16')
 
 lin.set_new_frame_rx_handler(rx_new_data)
 
