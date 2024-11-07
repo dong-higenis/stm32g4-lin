@@ -68,8 +68,8 @@ all:
 main-build: stm32g4_lin.elf secondary-outputs
 
 # Tool invocations
-stm32g4_lin.elf stm32g4_lin.map: $(OBJS) $(USER_OBJS) D:\mcu\stm32g4_auto_wk\stm32g4-lin\source\stm32g4_lin\STM32G431KBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "stm32g4_lin.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\mcu\stm32g4_auto_wk\stm32g4-lin\source\stm32g4_lin\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32g4_lin.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+stm32g4_lin.elf stm32g4_lin.map: $(OBJS) $(USER_OBJS) D:\mcu\stm32g4_lin\stm32g4-lin-main\source\stm32g4_lin\STM32G431KBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "stm32g4_lin.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\mcu\stm32g4_lin\stm32g4-lin-main\source\stm32g4_lin\STM32G431KBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32g4_lin.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

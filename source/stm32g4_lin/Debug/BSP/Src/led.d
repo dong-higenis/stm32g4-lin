@@ -1,5 +1,5 @@
 BSP/Src/led.o: ../BSP/Src/led.c \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/BSP/Inc/led.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/BSP/Inc/led.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../Core/Inc/stm32g4xx_hal_conf.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
@@ -33,7 +33,7 @@ BSP/Src/led.o: ../BSP/Src/led.c \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
  ../Core/Inc/gpio.h ../Core/Inc/main.h
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/BSP/Inc/led.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/BSP/Inc/led.h:
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:
 ../Core/Inc/stm32g4xx_hal_conf.h:
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h:

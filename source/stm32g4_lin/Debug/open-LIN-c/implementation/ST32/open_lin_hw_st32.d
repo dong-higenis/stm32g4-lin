@@ -6,15 +6,15 @@ open-LIN-c/implementation/ST32/open_lin_hw_st32.o: \
  ../open-LIN-c/implementation/ST32/../../open_lin_types.h \
  ../open-LIN-c/implementation/ST32/../../open_lin_network_layer.h \
  ../open-LIN-c/implementation/ST32/../../open_lin_hw.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/BSP/Inc/slcan.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_data_layer.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_master_data_layer.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_types.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_hw.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_slave_data_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/BSP/Inc/slcan.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_data_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_master_data_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_types.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_hw.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_slave_data_layer.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../Core/Inc/stm32g4xx_hal_conf.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
@@ -54,15 +54,15 @@ open-LIN-c/implementation/ST32/open_lin_hw_st32.o: \
 ../open-LIN-c/implementation/ST32/../../open_lin_types.h:
 ../open-LIN-c/implementation/ST32/../../open_lin_network_layer.h:
 ../open-LIN-c/implementation/ST32/../../open_lin_hw.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/BSP/Inc/slcan.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_data_layer.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_master_data_layer.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_types.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_hw.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_slave_data_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/BSP/Inc/slcan.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_data_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_master_data_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_types.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_hw.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_slave_data_layer.h:
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:
 ../Core/Inc/stm32g4xx_hal_conf.h:
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h:

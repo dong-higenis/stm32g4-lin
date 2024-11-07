@@ -31,7 +31,7 @@ BSP/Src/util.o: ../BSP/Src/util.c \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h \
  ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/BSP/Inc/util.h
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/BSP/Inc/util.h
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:
 ../Core/Inc/stm32g4xx_hal_conf.h:
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h:
@@ -64,4 +64,4 @@ BSP/Src/util.o: ../BSP/Src/util.c \
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h:
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h:
 ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/BSP/Inc/util.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/BSP/Inc/util.h:

@@ -110,7 +110,7 @@ int main(void)
   HAL_UART_Receive_IT(&huart1, &Uart2RxFifo, 1);
   printf("hello\n");
   // LIN_EN
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_SET);
   /* USER CODE END 2 */
 
   /* Infinite loop */

@@ -39,16 +39,16 @@ USB_Device/App/usbd_cdc_if.o: ../USB_Device/App/usbd_cdc_if.c \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/BSP/Inc/slcan.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_data_layer.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_types.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_master_data_layer.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_hw.h \
- D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_slave_data_layer.h
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/BSP/Inc/slcan.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_data_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_types.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_master_data_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_hw.h \
+ D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_slave_data_layer.h
 ../USB_Device/App/usbd_cdc_if.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
@@ -89,13 +89,13 @@ USB_Device/App/usbd_cdc_if.o: ../USB_Device/App/usbd_cdc_if.c \
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/BSP/Inc/slcan.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_data_layer.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_types.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_master_data_layer.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_hw.h:
-D:/mcu/stm32g4_auto_wk/stm32g4-lin/source/stm32g4_lin/open-LIN-c/open_lin_slave_data_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/BSP/Inc/slcan.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_data_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_types.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_cfg.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_master_data_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_network_layer.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_hw.h:
+D:/mcu/stm32g4_lin/stm32g4-lin-main/source/stm32g4_lin/open-LIN-c/open_lin_slave_data_layer.h:
