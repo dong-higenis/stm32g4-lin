@@ -108,7 +108,7 @@ int main(void)
   MX_USB_Device_Init();
   /* USER CODE BEGIN 2 */
   HAL_UART_Receive_IT(&huart1, &Uart2RxFifo, 1);
-  printf("hello\n");
+  //printf("start\n");
   // LIN_EN
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_SET);
   /* USER CODE END 2 */
@@ -213,7 +213,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   /* USER CODE BEGIN Callback 0 */
 
   /* USER CODE END Callback 0 */
-  if (htim->Instance == TIM1) {
+  if (htim->Instance == TIM1)
+  {
     HAL_IncTick();
   }
   /* USER CODE BEGIN Callback 1 */

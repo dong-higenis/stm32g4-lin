@@ -24,6 +24,12 @@
 #define SLCAN_STATE_OPEN 2
 
 extern uint8_t slcan_state;
+#define SL_DEBUG
+#ifdef SL_DEBUG
+  #define slcanPrintf(...) printf(__VA_ARGS__)
+#else
+  #define slcanPrintf(...) do {} while (0)
+#endif
 
 void slcanClose();
 uint8_t slcanReciveCanFrame(open_lin_frame_slot_t *pRxMsg);

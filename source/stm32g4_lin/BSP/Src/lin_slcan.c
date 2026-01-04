@@ -47,27 +47,7 @@ uint8_t addLinMasterRow(uint8_t* line) {
     uint8_t offset = 0;
     if (line[0] < 'Z')
     	offset = 5;
-    // reset schedule table
-    if (line[1] == '2')
-    {
-    	open_lin_hw_reset();
-        slcan_state = SLCAN_STATE_CONFIG;
-        master_frame_table_size = 0;
-        return 1;
-    }
-    // start sending
-    if (line[1] == '1'){
-    	if (lin_type == LIN_SLAVE)
-    	{
-    		open_lin_net_init(master_frame_table,master_frame_table_size);
-    	} else {
-			open_lin_master_dl_init(master_frame_table,master_frame_table_size);
-    		 //wakeUpLin();
-    	}
-        slcan_state = SLCAN_STATE_OPEN;
-        return 1;
-    }
-
+		
     // id
     if (!parseHex(&line[2], 2, &temp)) return 0;
 
