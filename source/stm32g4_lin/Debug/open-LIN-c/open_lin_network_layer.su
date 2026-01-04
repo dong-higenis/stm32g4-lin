@@ -1,3 +1,0 @@
-../open-LIN-c/open_lin_network_layer.c:17:6:open_lin_net_init	16	static
-../open-LIN-c/open_lin_network_layer.c:28:24:open_lin_net_get_slot	24	static
-../open-LIN-c/open_lin_network_layer.c:68:6:open_lin_net_rx_handler	24	static

@@ -1,4 +1,0 @@
-../open-LIN-c/open_lin_slave_data_layer.c:20:15:open_lin_slave_set_lin_frame	24	static
-../open-LIN-c/open_lin_slave_data_layer.c:42:6:open_lin_slave_init	8	static
-../open-LIN-c/open_lin_slave_data_layer.c:47:6:open_lin_slave_reset	4	static
-../open-LIN-c/open_lin_slave_data_layer.c:52:6:open_lin_slave_rx_header	16	static

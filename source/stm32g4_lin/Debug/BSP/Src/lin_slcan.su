@@ -1,8 +1,0 @@
-../BSP/Src/lin_slcan.c:16:28:slcan_get_master_table_row	24	static
-../BSP/Src/lin_slcan.c:42:9:addLinMasterRow	40	static
-../BSP/Src/lin_slcan.c:129:6:lin_slcan_reset	4	static
-../BSP/Src/lin_slcan.c:137:6:lin_slcan_rx_handler	16	static
-../BSP/Src/lin_slcan.c:146:6:open_lin_on_rx_frame	16	static
-../BSP/Src/lin_slcan.c:151:6:lin_slcan_rx_timeout_handler	16	static
-../BSP/Src/lin_slcan.c:177:6:lin_slcan_skip_header_reception	16	static
-../BSP/Src/lin_slcan.c:187:6:lin_slcan_rx	16	static

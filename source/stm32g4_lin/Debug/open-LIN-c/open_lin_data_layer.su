@@ -1,2 +1,0 @@
-../open-LIN-c/open_lin_data_layer.c:10:16:open_lin_data_layer_parity	24	static
-../open-LIN-c/open_lin_data_layer.c:23:21:open_lin_data_layer_checksum	24	static

@@ -1,2 +1,0 @@
-../BSP/Src/bootloader.c:60:6:RebootToBootloader	1
-../BSP/Src/bootloader.c:61:6:bootloaderSwitcher	1
