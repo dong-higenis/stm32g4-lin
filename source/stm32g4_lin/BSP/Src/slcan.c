@@ -65,13 +65,29 @@ static void slcanSetOutputAsHex(uint8_t ch) {
 	slCanSendNibble(ch & 0x0F);
 }
 
-static void slcanOutputFlush(void) {
-	while (((USBD_CDC_HandleTypeDef*) hUsbDeviceFS.pClassData)->TxState) {
-		;
-	} //should change by hardware
-	while (CDC_Transmit_FS(sl_frame, sl_frame_len) != USBD_OK)
-		;
-	sl_frame_len = 0;
+static int slcanOutputFlush(void) {
+    const uint32_t start = HAL_GetTick();
+    const uint32_t timeout_ms = 20; // 조정 가능
+
+    // TxState clear 대기 (폴링 시에도 타임아웃 두기)
+    while (((USBD_CDC_HandleTypeDef *)hUsbDeviceFS.pClassData)->TxState) {
+        if ((HAL_GetTick() - start) > timeout_ms) {
+            return -1; // busy timeout
+        }        
+        HAL_Delay(1);
+    }
+
+    // 전송 시도 및 재시도 타임아웃
+    uint32_t tx_start = HAL_GetTick();
+    while (CDC_Transmit_FS(sl_frame, sl_frame_len) == USBD_BUSY) {
+        if ((HAL_GetTick() - tx_start) > timeout_ms) {
+            return -2; // transmit timeout
+        }
+        HAL_Delay(1);
+    }
+
+    sl_frame_len = 0;
+    return 0;
 }
 
 void slCanHandler(uint8_t time_passed_ms) {
